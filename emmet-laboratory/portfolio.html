@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .profile-img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #1e3a5f;
+    }
+</style>
+    <title>Document</title>
+</head>
+<body>
+     <header id="home">
+        <h1>Your Name</h1>
+        <p>Student | Future Web Developer</p>
+        <p>Welcome to my personal portfolio!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <div class="about-content">
+            <img
+                src="images (1).jpg"
+                alt="Student profile picture"
+                class="profile-img"
+            >
+
+            <div class="about-text">
+                <p>
+                    Hello! My name is Jessie Dulnuan. I am a student who is
+                    interested in web development and information technology.
+                    I enjoy learning how to create websites and improve my
+                    programming skills. My goal is to become a skilled
+                    web developer and create useful digital projects.
+                </p>
+                <br>
+                <p>
+                    This portfolio showcases my skills, projects, and
+                    learning experiences as a student.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>PHP</li>
+            <li>MySQL</li>
+            <li>Git</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class=" Tourism-website">
+                <h3>Personal Portfolio</h3>
+                <p>
+                    At Adventure, we're passionate about travel and adventure. Our mission is to bring the world's wonders closer to you and help you make the most of your travel experiences.
+                </p>
+                <a href="https://simple-tourism-organization.netlify.app/">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Student Registration Form</h3>
+                <p>
+                    A sample registration form that collects student
+                    information using HTML form elements and CSS styling.
+                </p>
+                <a href="https://yash-srivastav16.github.io/Tour-website-2/">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Manage Your Appointments or Dates</h3>
+                <p>
+                   This is full feature web application created in ASP.Net Web Api and React.
+                   JS to manage dates or appointments or anything similar.
+                </p>
+                <a href="https://aqyanoos.com/">View Project</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form action="#" method="post">
+
+            <label for="name">Name:</label>
+            <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                required
+            >
+
+            <label for="email">Email:</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                required
+            >
+
+            <label for="subject">Subject:</label>
+            <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Enter the subject"
+                required
+            >
+
+            <label for="message">Message:</label>
+            <textarea
+                id="message"
+                name="message"
+                rows="5"
+                placeholder="Write your message here"
+                required
+            ></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Dulnuan Jessie..</p>
+    </footer>
+</body>
+</html>
