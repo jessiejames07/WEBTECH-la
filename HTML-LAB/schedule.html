@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h2>Weekly Class Schedule</h2>
+
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Subject</th>
+            <th>Room</th>
+            <th>Instructor</th>
+        </tr>
+
+        <!-- Monday Block -->
+        <tr>
+            <!-- rowspan="3" merges Monday across 3 rows (2 classes + 1 lunch) -->
+            <td rowspan="3"><b>Monday</b></td>
+            <td>8:00 AM - 10:00 AM</td>
+            <td>Web Development</td>
+            <td>LAB 1</td>
+            <td>Mr. John Doe</td>
+        </tr>
+        <tr>
+            <td>10:00 AM - 12:00 PM</td>
+            <td>Database Systems</td>
+            <td>LAB 2</td>
+            <td>Ms. Jane Smith</td>
+        </tr>
+        <tr>
+            <td>12:00 PM - 1:00 PM</td>
+            <!-- colspan="3" merges Subject, Room, and Instructor columns -->
+            <td colspan="3">LUNCH BREAK</td>
+        </tr>
+
+        <!-- Tuesday Block -->
+        <tr>
+            <!-- rowspan="2" merges Tuesday across 2 rows (2 classes) -->
+            <td rowspan="2"><b>Tuesday</b></td>
+            <td>1:00 PM - 3:00 PM</td>
+            <td>Computer Networks</td>
+            <td>Room 302</td>
+            <td>Engr. Alex Lee</td>
+        </tr>
+        <tr>
+            <td>3:00 PM - 5:00 PM</td>
+            <td>Software Engineering</td>
+            <td>Room 405</td>
+            <td>Dr. Sarah Gomez</td>
+        </tr>
+    </table>
+</body>
+</html>
